@@ -2,6 +2,7 @@ import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,4 +30,13 @@ public class Controller {
 		ResponseEntity<Student> response = new ResponseEntity<Student>(this.service.createStudent(Student),HttpStatus.CREATED);	
 		return response;
 	}
+	
+	@GetMapping
+	public ResponseEntity<List<Student>> get() {
+		
+		//String student = "Mazda go brum";
+		ResponseEntity<List<Student>> response = new ResponseEntity<List<Student>>(this.service.getAllStudents(), HttpStatus.OK);
+		
+		return response;
+}
 }
