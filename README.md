@@ -12,7 +12,7 @@ What went well?/What didn't go as planned?
 The overall project went as planned although the risk assessment was a bit challenging to do.
 
 Possible improvements for future revisions of the project?
-I would have done some of the stretch goals if revisted this in the future
+I would have done the erd diagram if revisted this in the future
 
 
 Below is a screen shot of the delete request on postman
