@@ -1,4 +1,4 @@
-This is a spirng boot project by mubarak ali.
+This is a spring boot project by Mubarak Ali.
 
 Link to Jira Board: https://mubarakjirawebsite.atlassian.net/jira/software/projects/PPDMA/boards/2
 
